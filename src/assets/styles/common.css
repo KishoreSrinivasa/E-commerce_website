@@ -1,0 +1,19 @@
+.normal-button {
+    background-color: aqua;
+    border-radius: 8px;
+    color: black;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-decoration: none;
+    font-size: medium;
+}
+
+.text-button {
+    background: transparent;
+    font-size: large;
+    font-family: bold;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-decoration: none;
+    color: white;
+}

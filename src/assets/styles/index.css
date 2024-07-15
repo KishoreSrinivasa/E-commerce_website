@@ -1,0 +1,9 @@
+.common-background {
+    background: linear-gradient(#25bbc0, #04495e);
+    background-size: cover;
+}
+
+.header-part-2 {
+    align-content: center;
+    padding-left: auto;
+}
