@@ -1,19 +1,55 @@
-.normal-button {
-    background-color: aqua;
-    border-radius: 8px;
-    color: black;
-    padding-left: 8px;
-    padding-right: 8px;
-    text-decoration: none;
-    font-size: medium;
+.common-text-style {
+    color: white;
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
 }
 
-.text-button {
-    background: transparent;
-    font-size: large;
-    font-family: bold;
-    padding-left: 15px;
-    padding-right: 15px;
+.common-text-button {
+    margin-left: 15px;
+    font-weight: 400;
+    font-size: 3svb;
     text-decoration: none;
+}
+
+.common-text-button:hover {
+    color: #969696;
+    cursor: pointer;
+    transition-duration: 0.1s;
+    text-decoration: none;
+}
+
+.common-button-style {
+    background-color: transparent;
+    border: white solid 0.1rem;
+    border-radius: 3px;
     color: white;
+    width: 100px;
+    height: 45px;
+}
+
+.common-button-style:hover {
+    background-color: #969696;
+    cursor: pointer;
+    transition-duration: 0.1s;
+}
+
+.swiper {
+    height: 150px;
+}
+
+.swiper-slide {
+    width: 100%;
+    height: 110px;
+    background-size: cover;
+    background-position: center;
+}
+
+.img-bg {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
 }

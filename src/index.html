@@ -7,34 +7,103 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/styles/index.css">
     <link rel="stylesheet" href="assets/styles/common.css">
+    <link href="assets/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
 </head>
 <body  class="common-background">
-    <!--starting of the header block-->
-    <header>
-
-        <div class="container header-main">
-            <div class="row">
-            <div class="col-sm-3 header-part-1">
-                <img src="" alt="logo image">
-                <p id="company-name">name placeholder</p>
+    <div class="outer-border">
+        <!--starting of the header block-->
+        <header>
+            <div class="header-main">
+                <div class="header-logo">
+                    <img class="company-logo" id="company_logo" src="assets/components/imagesbackground.jpeg"  alt="logo_image">
+                    <p class="company-name common-text-style" id="company_name">default</p>
+                </div>
+                <div class="header-button">
+                    <a class="common-text-style common-text-button" href="#">collections</a>
+                    <a class="common-text-style common-text-button" href="#">about</a>
+                    <a class="common-text-style common-text-button" href="#">feedback</a>
+                </div> 
             </div>
-            <div class="col-sm-6"></div>
-            <div class="col-sm-3  header-part-2">
-                <a class="normal-button" href="#">add card</a>
-                <a class="text-button" href="#">about us</a>
+        </header>
+        <!--Ending of the header block-->
+
+        <!--Starting of the main block-->
+        <main>
+            <div class="row main-container">
+                <div class="col-sm-4">
+                    <div class="main-post-card">
+
+                        <div class="swiper sliderFeaturedPosts">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <a href="#" class="d-flex img-bg align-items-center" style="background-image:  url(assets/components/1.png);"></a>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <a href="#" class="d-flex img-bg align-items-center" style="background-image:  url(assets/components/2.png);"></a>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <a href="#" class="d-flex img-bg align-items-center" style="background-image:  url(assets/components/3.png);"></a>                            
+                                </div>
+                            </div>
+                            
+                            <div class="swiper-pagination"></div>
+                        </div>
+
+                    </div>
+                </div>
+    
+                <div class="col-sm-4">
+                    <div class="main-post-card">
+                        <div class="swiper sliderFeaturedPosts">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <a href="#" class="d-flex img-bg align-items-center" style="background-image:  url(assets/components/1.png);"></a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#" class="d-flex img-bg align-items-center" style="background-image:  url(assets/components/2.png);"></a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#" class="d-flex img-bg align-items-center" style="background-image:  url(assets/components/3.png);"></a>                            
+                                </div>
+                            </div>
+                            
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-4">
+                    <div class="main-post-card">
+                        <div class="swiper sliderFeaturedPosts">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <a href="#" class="d-block img-bg align-items-center" style="background-image:  url(assets/components/imagesbackground.jpeg);"></a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#" class="d-block img-bg align-items-center" style="background-image:  url(assets/components/2.png);"></a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#" class="d-block img-bg align-items-center" style="background-image:  url(assets/components/3.png);"></a>                            
+                                </div>
+                            </div>
+                            
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            </div>
-        </div>
-
-    </header>
-    <!--Ending of the header block-->
-
-    <!--Starting of the main block-->
-    <main>
-
-    </main>
-    <!--Ending of the main block-->
-
+        </main>
+        <!--Ending of the main block-->
+    </div>
+ 
+    <script src="scripts/index.js"></script>
+    <script src="assets/swiper/swiper-bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
