@@ -1,3 +1,8 @@
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .common-background {
     background: black;
     background-size: cover;
@@ -7,10 +12,18 @@
     height: 100%;
 }
 
+.dropdownbutton {
+    width: 40px;
+    height: 40px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    margin-left: 20px;
+}
+
 .outer-border {
     display: block;
     position: relative;
-    border: white solid 0.1rem;
     margin: 50px;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -18,9 +31,30 @@
     padding-right: 10px;
 }
 
+.patrick-hand-regular {
+    color: white;
+    font-family: "Patrick Hand", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.happy-monkey-regular {
+    color: white;
+    font-family: "Happy Monkey", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
 .common-text-style {
     color: white;
     font-weight: 400;
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.common-text-style-black {
+    color: rgb(0, 0, 0);
+    font-weight: 600;
     font-style: normal;
     font-family: 'Times New Roman', Times, serif;
 }
@@ -91,9 +125,45 @@
 }
 
 .divider {
-    border: white solid 0.1rem;
+    border: white solid 0.05rem;
     margin-left: 30px;
     margin-right: 30px;
     margin-top: 50px;
     margin-bottom: 40px;
+}
+
+
+.footer-main {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+@keyframes fadeInUp {
+    0% {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0%);
+      opacity: 1;
+    }
+  }
+
+  @keyframes fadeInUpLow {
+    0% {
+      transform: translateY(90%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(60%);
+      opacity: 1;
+    }
+  }
+  
+.fade-in-up {
+    animation: 1.5s fadeInUp;
+  }
+
+.fade-in-up-slow {
+    animation: 0.5s fadeInUpLow;
 }

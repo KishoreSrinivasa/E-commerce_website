@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
     "use strict"
 
     //creating some constant variable 
-    const logo_url = "assets/components/down-left-image-removebg-preview.png";
+    const logo_url = "assets/components/logo.png";
     const company_name = "Kaikuttai";
 
     setLogoandName(logo_url, company_name);
