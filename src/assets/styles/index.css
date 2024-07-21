@@ -1,34 +1,3 @@
-.header-main {
-    display: inline-flex;
-    position: relative;
-    width: 100%;
-}
-
-.header-logo {
-    display: inline-flex;
-    margin-left: 30px;
-    height: 80px;
-}
-
-.company-logo {
-    width: 70px;
-    height: 70px;
-}
-
-.company-name {
-    margin-top: auto;
-    margin-left: 10px;
-    text-align: center;
-    font-size: 6svb;
-}
-
-.header-button {
-    margin-left: auto;
-    margin-right: 30px;
-    margin-top: auto;
-    margin-bottom: auto;
-}
-
 .main-post-card {
     border: white solid 0.2rem;
     border-radius: 0 10px 0 10px;
@@ -91,9 +60,39 @@
     align-items: center;
 }
 
+.card-button-inner {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 .main-post-card {
     transform: scale(1); /* Default scale */
     transition: transform 0.3s ease-in-out; /* Smooth transition */
+}
+
+.main-post-card:hover {
+    box-shadow: 0.2rem 0.5rem 10px white;
+}
+
+.swiper {
+    height: 150px;
+}
+
+.swiper-slide {
+    width: 100%;
+    height: 110px;
+    background-size: cover;
+    background-position: center;
+}
+
+.img-bg {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 @media (max-width: 1200px) {
@@ -117,18 +116,5 @@
 @media (max-width: 576px) {
     .card-display-01 {
         transform: scale(1); /* Scale down on extra small screens */
-    }
-}
-
-.dropdown-header {
-    display: none;
-}
-
-@media (max-width: 620px) {
-    .header-button {
-        display: none;
-    }
-    .dropdown-header {
-        display: block;
     }
 }

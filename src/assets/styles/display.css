@@ -1,0 +1,83 @@
+.swiper {
+    height: 400px;
+}
+
+.swiper-slide {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.img-bg {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.display-style-01 {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.inner-style-01 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.name-style {
+    font-size: 8svb;
+}
+
+.details-style {
+    margin-top: 40px;
+    border: 0.1rem white solid;
+    border-radius: 0 10px 0 10px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.details-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.details-inner {
+    padding-top: 5px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.divider-02 {
+    margin-left: 5px;
+    margin-right: 5px;
+    border: 0.05rem white solid;
+    width: 100%;
+}
+
+.button-container {
+    margin-top: 60px;
+}
+
+.outer-button {
+    display: flex;
+    flex-direction: row;
+}
+
+.inner-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
