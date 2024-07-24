@@ -34,6 +34,22 @@
 
 .password-style {
     margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.toggle-password {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+.toggle-password svg {
+    fill: white;
+    margin-bottom: 2px;
 }
 
 .email-style, 
@@ -47,7 +63,7 @@
     background-color: transparent;
     border: none;
     outline: none;
-    border-bottom: 0.1rem white solid;
+    border-bottom: 0.15rem white solid;
 }
 
 .line-between {

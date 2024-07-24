@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KaiKuttai</title>
+    <link rel="icon" href="assets/components/logo.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/styles/cart.css">
+    <link rel="stylesheet" href="assets/styles/common.css">
+    <link href="assets/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+</head>
+<body class="common-background">
+    <!--Add outer corner images-->
+    <div class="top-right-image">
+        <img src="assets/components/top-right-removebg-preview.png" alt="design">
+    </div>
+    <!--
+    <div class="down-left-image">
+        <img src="assets/components/down-left-image-removebg-preview.png" alt="design">
+    </div>
+    -->
+    <div class="outer-border">
+    <!--starting of the header block-->
+    <header>
+        <div class="header-main">
+            <div class="shrink header-logo">
+                <img class="company-logo" id="company-logo" src="assets/components/imagesbackground.jpeg"  alt="logo_image">
+                <p class="company-name common-text-style" id="company-name">default</p>
+            </div>
+            <div class="shrink header-button">
+                <a class="common-text-style common-text-button" href="#">Your's Cart</a>
+                <a class="common-text-style common-text-button" href="#">Account</a>
+                <a class="common-text-style common-text-button" href="#">About</a>
+            </div> 
+
+            <div class="shrink dropdown dropdown-header">
+                <button class="dropdownbutton" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <i>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-justify-right" viewBox="0 0 10 10">
+                            <path fill-rule="evenodd" d="M6 12.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5m-4-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5m0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5m0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5"/>
+                        </svg>
+                    </i>
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item common-text-style-black" style="text-align: center;" href="#">Cart</a>
+                    <a class="dropdown-item common-text-style-black" style="text-align: center;" href="#">Account</a>
+                    <a class="dropdown-item common-text-style-black" style="text-align: center;" href="#">About</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="divider"></div>
+    <!--Ending of the header block-->
+
+
+    <!--starting of the footer block-->
+    <div class="divider"></div>
+    <footer>
+        <div class="footer-main">
+            <div class="row justify-content-between">
+                <div class="col-md-6">
+                    <div class="copyrights"><p class="common-text-style" style="font-weight: 200;">© Copyrights by <strong><span id="company-name-03">default</span></strong>. All Rights Reserved.</p></div>
+                </div>
+                <div class="col-md-6 justify-content-end">
+                    <div class="credit ml-auto"><p class="common-text-style" style="font-weight: 200;">The website designed and developed by <strong><a href="#">Kishore Srinivasan</a></strong></p></div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--End of the footer block-->
+    </div>
+
+    <script src="scripts/cart.js"></script>
+    <script src="assets/swiper/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,90 @@
+.main-outer {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+.card-outer {
+    height: fit-content;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px 60px 60px 30px;
+}
+
+.card-heading {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.card-heading p {
+    font-size: 6svb;
+}
+
+.input-style input{
+    width: 100%;
+    color: white;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    margin-bottom: 30px;
+    border-bottom: 0.15rem rgb(255, 255, 255) solid;
+}
+
+.input-style {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.address-inner {
+    display: flex;
+    flex-direction: row;    
+    width: 100%;
+}
+
+.address-taluk-input-user,
+.address-pincode-input-user {
+    margin-right: 10px;
+}
+
+.signup-button {
+    margin-bottom: 30px;
+}
+
+.password-style {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.toggle-password {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 5px;
+    transform: translateY(-100%);
+    cursor: pointer;
+}
+.toggle-password svg {
+    fill: white;
+    margin-bottom: 2px;
+}
+
+@media (max-width: 360px) {
+    .signup-button {
+        margin-top: 30px;
+    }
+
+    .address-inner input {
+        margin-top: 20px;
+    }
+}

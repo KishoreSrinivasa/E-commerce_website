@@ -2,6 +2,7 @@ function setLogoandName(logourl, name) {
     document.getElementById("company-logo").src = logourl;
   
     document.getElementById("company-name").innerHTML = name;
+    document.getElementById("company-name-03").innerHTML = name;
   } 
   
   document.addEventListener('DOMContentLoaded', () => {

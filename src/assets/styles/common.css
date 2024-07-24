@@ -4,7 +4,7 @@ a {
 }
 
 .common-border-style {
-    box-shadow: 7px 7px 15px yellow; 
+    box-shadow: 10px 10px 30px yellow; 
 }
 
 .header-main {
@@ -160,6 +160,9 @@ a {
     margin-bottom: 40px;
 }
 
+.swiper-slide a {
+    filter: drop-shadow(5px 5px 7px #fffd01);
+}
 
 .footer-main {
     margin-left: 30px;
