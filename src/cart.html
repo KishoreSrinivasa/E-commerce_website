@@ -29,7 +29,7 @@
     <header>
         <div class="header-main">
             <div class="shrink header-logo">
-                <img class="company-logo" id="company-logo" src="assets/components/imagesbackground.jpeg"  alt="logo_image">
+                <img class="company-logo" id="company-logo" src=""  alt="logo_image">
                 <p class="company-name common-text-style" id="company-name">default</p>
             </div>
             <div class="shrink header-button">
@@ -57,6 +57,46 @@
     <div class="divider"></div>
     <!--Ending of the header block-->
 
+    <!--Starting of the main block-->
+    <div class="container">
+        <div class="inner-main-container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="swiper sliderFeaturedPosts">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <a href="#" class="d-block img-bg align-items-center" style="background-image:  url(assets/components/image01-removebg-preview.png);"></a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#" class="d-block img-bg align-items-center" style="background-image:  url(assets/components/image02-removebg-preview.png);"></a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#" class="d-block img-bg align-items-center" style="background-image:  url(assets/components/image03-removebg-preview.png);"></a>                            
+                            </div>
+                        </div>
+                        
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="label-container">
+                        <div class="text-design">
+                            <p class="common-text-style text-size">Name</p>
+                        </div>
+                        <div class="count-style">
+                            <p class="common-text-style text-size">Count</p>
+                            <div class="count-container">
+                                <button class="minus-button" onclick="countMinus()">-</button>
+                                <input class="count-display" id="count-display-id" type="text">
+                                <button class="plus-button" onclick="countPlus()">+</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Ending of the main block-->
 
     <!--starting of the footer block-->
     <div class="divider"></div>
