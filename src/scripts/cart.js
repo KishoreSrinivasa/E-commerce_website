@@ -1,10 +1,24 @@
+const counter = document.getElementById("count-display-id");
+counter.value = 1;
+
 function setLogoandName(logourl, name) {
     document.getElementById("company-logo").src = logourl;
   
     document.getElementById("company-name-03").innerHTML = name;
     document.getElementById("company-name").innerHTML = name;
   } 
-  
+
+function countMinus() {
+    let count = counter.value;
+    if(count != 1) {
+      counter.value = Number(count)-1;
+    }
+}
+
+function countPlus() {
+  let count = counter.value;
+  counter.value = Number(count)+1;
+}
   document.addEventListener('DOMContentLoaded', () => {
       "use strict"
   

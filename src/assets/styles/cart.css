@@ -1,9 +1,15 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .inner-main-container {
     background-color: #454545;
-    width: 100%;
+    width: 80%;
     height: fit-content;
-    border-radius: 30px 50px 50px 50px;
-    box-shadow: 5px 5px 30px #ff5600;
+    border-radius: 50px 50px 50px 50px;
+    box-shadow: 0px 0px 30px #ff5600;
 }
 
 .swiper {
@@ -35,7 +41,6 @@
 }
 
 .count-style {
-    margin-top: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -47,7 +52,6 @@
 }
 
 .count-container {
-    width: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -69,12 +73,75 @@
 
 .count-container input {
     text-align: center;
-    width: 60px;
+    width: 50px;
     height: auto;
     border-radius: 5px;
     color: black;
+    font-weight: 700;
+}
+
+.text-design {
+    margin-top: 5px;
 }
 
 .text-size {
     font-size: 4svb;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.close-button {
+    display: block;
+    position: relative;
+    top: 20px;
+    right: 50px;
+    transform: translate(0,0);
+    margin-left: 100%;
+}
+
+.close-button-style {
+    background-color: transparent;
+    color: white;
+    font-size: 3svb;
+    font-weight: 800;
+    border: none;
+}
+
+.price-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.select-container {
+    display: block;
+    margin-left: 70%;
+}
+
+.price-container p {
+    margin-top: 50%;
+    margin-bottom: 50%;
+    margin-right: 100%;
+}
+
+.price-style {
+    font-size: 5svb;
+}
+
+@media (max-width : 360px) {
+    .price-container p {
+        margin-right: 0;
+    }
+
+    .select-container {
+        margin-left: 60%;
+    }
 }
