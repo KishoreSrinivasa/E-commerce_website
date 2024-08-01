@@ -1,3 +1,7 @@
+import { app } from "./firebaseSDK.js";
+
+console.log("app is initial:", app);
+
 function setLogoandName(logourl, name) {
   document.getElementById("company-logo").src = logourl;
 

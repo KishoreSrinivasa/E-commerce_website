@@ -13,6 +13,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <script type="module" src="./scripts/firebaseSDK.js"></script>
 </head>
 <body  class="common-background">
     <!--Add outer corner images-->
@@ -33,10 +34,10 @@
                     <p class="company-name common-text-style" id="company-name">default</p>
                 </div>
                 <div class="shrink header-button">
-                    <a class="common-text-style common-text-button" href="index.html">Home</a>
-                    <a class="common-text-style common-text-button" href="cart.html">Your's Cart</a>
-                    <a class="common-text-style common-text-button" href="account.html">Account</a>
-                    <a class="common-text-style common-text-button" href="about.html">About</a>
+                    <a class="common-text-style common-text-button" id="home_page_button" href="index.html">Home</a>
+                    <a class="common-text-style common-text-button" id="cart_page_button" href="cart.html">Your's Cart</a>
+                    <a class="common-text-style common-text-button" id="sign_page_button" href="account.html">Account</a>
+                    <a class="common-text-style common-text-button" id="about_page_button" href="about.html">About</a>
                 </div> 
 
                 <div class="dropdown dropdown-header">
@@ -248,7 +249,8 @@
         <!--End of the footer block-->
     </div>
  
-    <script src="scripts/index.js"></script>
+    <script type="module" src="scripts/index.js"></script>
+    <script src="./dist/bundle.js"></script>
     <script src="assets/swiper/swiper-bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>

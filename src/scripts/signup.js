@@ -1,7 +1,8 @@
 const password01 = document.getElementById("password-input-id");
-const password02 = document.getElementById("re-password-input-id")
+const password02 = document.getElementById("re-password-input-id");
 const passwordtoggleicon01 = document.getElementById('toggleIcon01');
-const passwordtoggleicon02 = document.getElementById('toggleIcon02')
+const passwordtoggleicon02 = document.getElementById('toggleIcon02');
+const signupButton = document.getElementById('signupButton');
 
 function togglePassword01() {
     if(password01.type == 'password') {
