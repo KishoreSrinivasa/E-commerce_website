@@ -97,6 +97,17 @@ a {
     font-style: normal;
 }
 
+.nav-button {
+    background-color: transparent;
+    border: 0;
+    font-size: 3svb;
+    margin-left: 20px;
+}
+
+.nav-button:hover {
+    color: #969696;
+}
+
 .common-text-style {
     color: white;
     font-weight: 400;

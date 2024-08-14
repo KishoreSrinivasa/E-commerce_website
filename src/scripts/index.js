@@ -1,19 +1,42 @@
-import { app } from "./firebaseSDK.js";
+// Common variables
+const counter = document.getElementById("count-display-id");
 
-console.log("app is initial:", app);
-
+// Common need functions
 function setLogoandName(logourl, name) {
-  document.getElementById("company-logo").src = logourl;
-
-  document.getElementById("company-name").innerHTML = name;
-  document.getElementById('company-name-02').innerHTML = name;
-  document.getElementById("company-name-03").innerHTML = name;
+  if(document.getElementById("company-logo")) {
+    document.getElementById("company-logo").src = logourl;
+  }
+  if(document.getElementById("company-name")) {
+    document.getElementById("company-name").innerHTML = name;
+  }
+  if(document.getElementById('company-name-02')) {
+    document.getElementById('company-name-02').innerHTML = name;
+  }
+  if(document.getElementById("company-name-03")) {
+    document.getElementById("company-name-03").innerHTML = name;
+  }
 } 
+
+function countMinus() {
+  let count = counter.value;
+  if(count != 1) {
+    counter.value = Number(count)-1;
+  }
+}
+
+function countPlus() {
+let count = counter.value;
+counter.value = Number(count)+1;
+}
 
 document.addEventListener('DOMContentLoaded', () => {
     "use strict"
 
+
     //creating some constant variable 
+    if(counter) {
+      counter.value = 1;
+    }
     const logo_url = "assets/components/logo.png";
     const company_name = "Kaikuttai";
 
